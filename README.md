@@ -17,6 +17,7 @@ Performs year-over-year percentage change analysis for stock prices.
 Calculates rolling correlations for returns and volatilities.
 Conducts Engle–Granger cointegration tests to identify long-term relationships between stock pairs.
 Creates animated rolling correlation heatmaps to visualize evolving relationships over time.
+
 Libraries Used
 yfinance: For downloading historical stock data.
 pandas: For data manipulation and analysis.
@@ -24,10 +25,12 @@ numpy: For numerical computations.
 matplotlib: For data visualization.
 seaborn: For creating heatmaps.
 statsmodels: For statistical tests like cointegration.
+
 How to Use
 Set Up: Ensure all required libraries are installed. You can install missing libraries using pip install.
 Run the Notebook: Execute the cells in order to download data, perform analyses, and generate visualizations.
 Modify Tickers: Update the tickers list in the notebook to analyze different stocks.
+
 File Structure
 Notebook: Contains all the code for data download, analysis, and visualization.
 CSV Files: Each stock's historical data is saved as a CSV file in the same directory.
